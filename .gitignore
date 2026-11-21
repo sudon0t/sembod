@@ -1,0 +1,21 @@
+# 教材 PDF 不纳入版本库
+*.pdf
+
+# IDE 与临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Python 产物
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
